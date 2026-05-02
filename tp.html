@@ -53,7 +53,7 @@
       text-align: center;
       line-height: 1.4;
     }
-    
+
     .etapa.bootcamp     { background: #e9ecef; color: #495057; }
     .etapa.brasil       { background: #fff3cd; color: #7a5c00; }
     .etapa.mexico       { background: #d4edda; color: #1a5c2a; }
@@ -87,6 +87,7 @@
       border-radius: 8px;
       padding: 40px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
     }
 
     .viz-block h2 {
@@ -114,17 +115,18 @@
 
   <header>
     <h1>¿Qué dicen mis Pull Requests sobre mi evolución como desarrollador?</h1>
+    <p>Entré a Mercado Libre en diciembre de 2024. Después de 3 meses de bootcamp, en abril de 2025 abrí mi primer PR en producción. Esto es lo que pasó después.</p>
   </header>
 
   <main>
 
     <div class="etapas">
-      <div class="etapa bootcamp">                                                                                                                                                     
-        Bootcamp MeLi                                                                                                                                                                  
-      <span>Dic 2024 → Mar 2025</span>                                                                                                                                               
-      <div class="etapa-logos">                                                                                                                                                      
-      <img src="img/logoMeli.png" alt="Mercado Libre">                                    
-      </div>                                                                                                                                                                         
+      <div class="etapa bootcamp">
+        Bootcamp MeLi
+        <span>Dic 2024 → Mar 2025</span>
+        <div class="etapa-logos">
+          <img src="img/logoMeli.png" alt="Mercado Libre">
+        </div>
       </div>
       <div class="etapa brasil">
         MeLi Mega — Brasil
@@ -157,46 +159,38 @@
 
     <div class="viz-block">
       <h2>¿Cuántos PRs mergeados realicé por proyecto a lo largo del tiempo?</h2>
-      <p>Cada línea representa un repositorio distinto. Se puede ver cómo al principio toda la actividad se concentraba en un solo proyecto, y con el tiempo fui sumándome a nuevos equipos y desarrollos.</p>
-
+      <p>Cada panel representa un repositorio distinto. Se puede ver cómo al principio toda la actividad se concentraba en un solo proyecto, y con el tiempo fui sumándome a nuevos equipos y desarrollos.</p>
       <div class="flourish-embed flourish-chart" data-src="visualisation/28786902">
-        <script src="https://public.flourish.studio/resources/embed.js">
-        </script>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
         <noscript>
           <img src="https://public.flourish.studio/visualisation/28786902/thumbnail" width="100%" alt="chart visualization" />
         </noscript>
       </div>
+    </div>
+
+    <div class="viz-block">
+      <h2>¿Cuál fue mi proyecto más activo?</h2>
+      <p>Total de PRs mergeados por repositorio durante el año en MeLi.</p>
+      <div style="min-height:191px" id="datawrapper-vis-hMpLg">
+        <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/hMpLg/embed.js" charset="utf-8" data-target="#datawrapper-vis-hMpLg"></script>
+        <noscript>
+          <img src="https://datawrapper.dwcdn.net/hMpLg/full.png" alt="Bar Chart" />
+        </noscript>
       </div>
-      <div class="viz-block" style="margin-top: 40px;">                                                 
-        <h2>¿Cuál fue mi proyecto más activo?</h2>
-        <p>Total de PRs mergeados por repositorio durante el año en MeLi.</p>                                                                                                      
-        <div style="min-height:191px" id="datawrapper-vis-hMpLg">
-          <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/hMpLg/embed.js" charset="utf-8" data-target="#datawrapper-vis-hMpLg"></script>                   
-          <noscript>                                                                                                                                                               
-            <img src="https://datawrapper.dwcdn.net/hMpLg/full.png" alt="Bar Chart" />                                                                                             
-          </noscript>                                                                                                                                                              
-        </div>                                                                                          
-      </div>
-      <div class="viz-block" style="margin-top: 40px;">                                                                                                                          
-          <h2>¿Cuánto tardaban mis PRs en mergearse?</h2>                                               
-          <p>Cada círculo es un PR. El tamaño indica los días que tardó en mergearse — a mayor tamaño, más días. Cada fila representa un repositorio distinto.</p>                 
-          <img src="img/viz.svg" width="100%" alt="¿Cuánto tardaban mis PRs en mergearse?" />                                                                                      
-        </div> 
-    <div class="viz-block" style="margin-top: 40px;">                                                                                                                            
-        <h2>¿Cómo creció la complejidad de mis desarrollos?</h2>                                                                                                                   
-        <p>Cada punto es un PR. El eje Y muestra la cantidad de líneas modificadas y el color indica el repositorio.</p>                                                                                                                                                           
-        <div class='tableauPlaceholder' id='viz1777691395982' style='position: relative'><noscript><a href='#'><img alt='Lineas de codigo ' 
-  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17765230489300&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object            
-  class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param 
-  name='site_root' value='' /><param name='name' value='Book1_17765230489300&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param              
-  name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17765230489300&#47;Sheet1&#47;1.png' /> <param name='animate_transition' 
-  value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param                    
-  name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div><script type='text/javascript'>var divElement
-   = document.getElementById('viz1777691395982');var vizElement =
-  divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement =
-  document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement,
-  vizElement);</script>
-      </div>
+    </div>
+
+    <div class="viz-block">
+      <h2>¿Cuánto tardaban mis PRs en mergearse?</h2>
+      <p>Cada círculo es un PR. El tamaño indica los días que tardó en mergearse — a mayor tamaño, más días. Cada fila representa un repositorio distinto.</p>
+      <img src="img/viz.svg" width="100%" alt="¿Cuánto tardaban mis PRs en mergearse?" />
+    </div>
+
+    <div class="viz-block">
+      <h2>¿Cómo creció la complejidad de mis desarrollos?</h2>
+      <p>Cada punto es un PR. El eje Y muestra la cantidad de líneas modificadas y el color indica el repositorio. Se puede ver cómo los cambios más grandes aparecen hacia el final del período.</p>
+      <div class='tableauPlaceholder' id='viz1777691395982' style='position: relative'><noscript><a href='#'><img alt='Lineas de codigo ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17765230489300&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17765230489300&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17765230489300&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div><script type='text/javascript'>var divElement = document.getElementById('viz1777691395982');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+    </div>
+
   </main>
 
   <footer>
